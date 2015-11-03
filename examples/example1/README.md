@@ -7,7 +7,7 @@ TODO scenario description
 ## Submission (SIP)
 The producer wishes to submit a text document accompanied by metadata in Dublin Core format.
 
-The text document was originaly created in Microsoft Word 97-2004 format (.doc)
+The text document was originally created in Microsoft Word 97-2004 format (.doc)
 and was later converted by the producer to the Microsoft Word Open XML format (.docx).
 
 Both formats are to be sent to the archive.
