@@ -12,11 +12,16 @@ and was later converted by the producer to the Microsoft Word Open XML format (.
 
 Both formats are to be sent to the archive.
 
+The SIP comes with no PREMIS information and no schemas.
+
 TODO link to SIP and explain its content
 
-## Archival (AIP)
+## Ingest: SIP to AIP process
 
-After ingest a preservation event was created to document the action performed on the ingest.
+On the SIP to AIP process the SIP was copied under the submission folder of the AIP.
+Also, PREMIS was generated for files and schemas were added.
+
+On ingest a preservation event was created to document the action performed on the ingest.
 
 Also, after ingest, a file format migration was performed on the object,
 converting the Word file into a PDF.
@@ -24,6 +29,8 @@ converting the Word file into a PDF.
 But, as users required a version of the documents that would be easier to reuse,
 another representation was created, migrating the original Word document into a
 OpenOffice text document (.odt).
+
+## Archival (AIP)
 
 TODO link to the AIP and explain its content
 
