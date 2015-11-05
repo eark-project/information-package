@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets ID="SIP_1" LABEL="SIP_1" OBJID="URN:EARK:SIP_1" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="No specification" xmlns:ext="ExtensionMETS" xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+
+  <mets:dmdSec ID="SIP_1_dmd1">
+    <mets:mdRef CHECKSUM="2a4d168be3474ff38aa2180d86dbae078ff2cbb3f6ecbff71f79bc02a6ac6114" CHECKSUMTYPE="SHA-256" CREATED="2012-04-26T12:00:00+01:00" LOCTYPE="URL" MDTYPE="EAD" MIMETYPE="text/xml" SIZE="1111" xlink:href="metadata/descriptive/ead.xml"
+      xlink:type="simple"/>
+  </mets:dmdSec>
+
+  <mets:amdSec ID="AIP_1_amd1">
+    <mets:digiprovMD ID="ID4566af74-0f7b-11e5-a6c0-1697f925ec7c">
+      <mets:mdRef CHECKSUM="TODO" CHECKSUMTYPE="SHA-256" CREATED="2012-04-26T12:00:00+01:00" LOCTYPE="URL" MDTYPE="PREMIS" MIMETYPE="text/xml" SIZE="1109" xlink:href="metadata/preservation/premis.xml" xlink:type="simple"/>
+      <mets:mdRef CHECKSUM="TODO" CHECKSUMTYPE="SHA-256" CREATED="2012-04-26T12:00:00+01:00" LOCTYPE="URL" MDTYPE="PREMIS" MIMETYPE="text/xml" SIZE="1109" xlink:href="metadata/preservation/rep_1/premis.xml" xlink:type="simple"/>
+      <mets:mdRef CHECKSUM="TODO" CHECKSUMTYPE="SHA-256" CREATED="2012-04-26T12:00:00+01:00" LOCTYPE="URL" MDTYPE="PREMIS" MIMETYPE="text/xml" SIZE="1109" xlink:href="metadata/preservation/rep_2/premis.xml" xlink:type="simple"/>
+    </mets:digiprovMD>
+  </mets:amdSec>
+
+  <mets:fileSec>
+    <mets:fileGrp>
+      <mets:fileGrp USE="representations">
+        <mets:fileGrp ID="rep_1" USE="representation">
+          <mets:file CHECKSUM="82f2bd5fa98f1b9fd6af1676fecef3c25067e4fc19450f2e0c3e1a92300e151e" CHECKSUMTYPE="SHA-256" CREATED="2015-11-05T01:00:00+01:00" ID="rep_1/F0" MIMETYPE="application/msword" SIZE="1592832">
+            <mets:FLocat LOCTYPE="URL" xlink:href="representations/rep_1/Example.doc" xlink:type="simple"/>
+          </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp ID="rep_2" USE="representation">
+          <mets:file CHECKSUM="2c7c5b58fecf6c60b2fb18211cc2fa79ba50d70a73ef67f6967da4294df0e5ec" CHECKSUMTYPE="SHA-256" CREATED="2015-11-05T01:00:00+01:00" ID="rep_2/F0" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document" SIZE="364767">
+            <mets:FLocat LOCTYPE="URL" xlink:href="representations/rep_1/Example.docx" xlink:type="simple"/>
+          </mets:file>
+        </mets:fileGrp>
+      </mets:fileGrp>
+    </mets:fileGrp>
+  </mets:fileSec>
+
+  <mets:structMap ID="structMapId" LABEL="Profilestructmap" TYPE="physical">
+    <mets:div DMDID="SIP_1_dmd1">
+      <mets:div LABEL="representations">
+        <mets:div LABEL="rep_1">
+          <mets:fptr FILEID="rep_1/F0"/>
+        </mets:div>
+        <mets:div LABEL="rep_2">
+          <mets:fptr FILEID="rep_2/F0"/>
+        </mets:div>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
