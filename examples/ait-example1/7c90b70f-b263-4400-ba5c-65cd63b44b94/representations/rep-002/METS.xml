@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="AIP" OBJID="rep-002" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-11-18T14:19:53">
+    <agent TYPE="ORGANIZATION" ROLE="ARCHIVIST">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <agent TYPE="OTHER" ROLE="ARCHIVIST">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <agent TYPE="ORGANIZATION" ROLE="CREATOR">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <agent TYPE="OTHER" ROLE="CREATOR" OTHERTYPE="SOFTWARE">
+      <name>E-ARK SIP Creator</name>
+      <note>VERSION=0.0.1</note>
+    </agent>
+    <agent TYPE="ORGANIZATION" ROLE="PRESERVATION">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <dmdSec ID="ID50d714dd-7771-412a-a52b-2278d442787a"/>
+  <amdSec ID="ID0f14fd16-dc87-4fb3-830e-50c0fcfb27be"/>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="ID7ccced34-b4f6-4c40-80e1-237a73cba8e6">
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-18T14:10:08" CHECKSUM="152303ad6c250db9a2580d1179f2272054996cb4b11a908a634040fbca93b3f1" ID="ID65ad1c0a-41a9-4031-8fc9-4e8144cafc2b" SIZE="1063411">
+        <FLocat xlink:href="file://./data/bike.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div ADMID="" DMDID="" LABEL="Package">
+      <div LABEL="Metadata"/>
+      <div LABEL="various files">
+        <fptr FILEID="ID65ad1c0a-41a9-4031-8fc9-4e8144cafc2b"/>
+      </div>
+      <div LABEL="schema files"/>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>

@@ -1,0 +1,46 @@
+2015-11-18 14:09:53 INFO SIPDeliveryValidation task 6eb1efff-ea05-4d89-abb0-3f06875e590f
+2015-11-18 14:09:53 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:09:53 INFO Package file: <Element {http://www.loc.gov/METS/}file at 0x7ff254f37cf8>
+2015-11-18 14:09:53 INFO Delivery XML file: /var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10.xml
+2015-11-18 14:09:53 INFO Schema file: /opt/Projects/EARK/earkweb/earkresources/schemas/IP.xsd
+2015-11-18 14:09:53 INFO Extracted file reference: file://./jansip10.tar
+2015-11-18 14:09:53 INFO Computing checksum for file: /var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/./jansip10.tar
+2015-11-18 14:09:53 INFO Checksum is valid.
+2015-11-18 14:09:55 INFO IdentifierAssignment task 21d811f8-f906-4406-b216-b2fbeca826fa
+2015-11-18 14:09:55 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:09:55 INFO New identifier assigned: 7c90b70f-b263-4400-ba5c-65cd63b44b94
+2015-11-18 14:09:58 INFO SIPExtraction task 011e9b51-cead-4ad7-98ad-6185ad95c4db
+2015-11-18 14:09:58 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:09:58 INFO Tar files found: [u'/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10.tar', u'/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/d3bbec9c-a6e9-494b-a0e1-2ee79e472e42.tar']
+2015-11-18 14:10:01 INFO SIPRestructuring task 8afde3b7-c68f-424b-ba64-fe5a7f27b7d0
+2015-11-18 14:10:01 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:10:01 INFO Tar files found: [u'/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10.tar', u'/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/d3bbec9c-a6e9-494b-a0e1-2ee79e472e42.tar']
+2015-11-18 14:10:01 INFO Restructuring content of package: /var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10
+2015-11-18 14:10:01 INFO Move SIP folder '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10/state.xml' to '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/submission
+2015-11-18 14:10:01 INFO Move SIP folder '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10/metadata' to '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/submission
+2015-11-18 14:10:01 INFO Move SIP folder '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10/schemas' to '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/submission
+2015-11-18 14:10:01 INFO Move SIP folder '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/jansip10/representations' to '/var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/submission
+2015-11-18 14:10:05 INFO SIPValidation task 896da31b-28e3-41b9-8fdd-c556cfb61255
+2015-11-18 14:10:05 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:10:05 ERROR SIP METS file missing: /var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/submission/representations/METS.xml
+2015-11-18 14:10:05 ERROR Data directory missing: /var/data/earkweb/work/431ae178-de05-40e5-a43c-4237f8d24de9/submission/representations/data
+2015-11-18 14:10:08 INFO AIPMigrations task 6c25617e-1319-497b-a10d-f1f7636ad76c
+2015-11-18 14:10:08 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:10:08 INFO Migration of rep-001 complete.
+2015-11-18 14:10:08 INFO MigrationProcess task 5464d95b-c295-4021-be8c-2d73ff09dff0
+2015-11-18 14:10:08 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:10:08 INFO MigrationProcess task 57db931c-8cd3-4f21-b503-6118f47d0aed
+2015-11-18 14:10:08 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:10:08 INFO File bike.gif is now migrated to TIFF.
+2015-11-18 14:10:08 INFO Successfully migrated file bike.gif.
+2015-11-18 14:19:53 INFO AIPRepresentationMetsCreation task 0d52ba6b-f0a5-4387-a732-a3fd918a8cd8
+2015-11-18 14:19:53 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 14:19:53 INFO Generated a Mets file for representation rep-002.
+2015-11-18 15:39:54 INFO AIPPackageMetsCreation task 01560bcc-f9aa-4c44-a6c5-60255a8516d8
+2015-11-18 15:39:54 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 15:39:54 INFO METS updated with AIP content.
+2015-11-18 15:39:58 INFO AIPValidation task da73b29f-5a4b-4bf2-a31c-da298e5a9e16
+2015-11-18 15:39:58 INFO Processing package 431ae178-de05-40e5-a43c-4237f8d24de9
+2015-11-18 15:39:58 INFO Validation result for METS.xml is True.
+2015-11-18 15:39:58 INFO Validation for the representations/rep-001 Mets file is True.
+2015-11-18 15:39:58 INFO Validation for the representations/rep-002 Mets file is True.
