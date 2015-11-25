@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="SIP" OBJID="3b7f4c9e-a313-468a-a432-3506147d3829" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-11-25T14:21:49">
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <dmdSec ID="IDe071dd0b-2ca3-4080-b329-5c62fae91dd1"/>
+  <amdSec ID="IDd17df9f6-b74c-43a3-85eb-023675b056e5">
+    <digiprovMD ID="ID4c7b6317-f10f-4507-9b19-1f2d1ec8fa39">
+      <mdRef MIMETYPE="text/plain" xlink:href="file://./metadata/earkweb.log" LOCTYPE="URL" CREATED="2015-11-25T14:21:49" CHECKSUM="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" xlink:type="simple" ID="ID446e25af-2bf2-441a-97ac-a0291f4f6de5" MDTYPE="OTHER" CHECKSUMTYPE="SHA-256"/>
+    </digiprovMD>
+  </amdSec>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="ID67636a40-d87f-4136-970d-eb93a8b2ba01">
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:20:48" CHECKSUM="dc8133202b61715fa2e52229bda041aed4e586f4b3b21109a40222391ac614f8" ID="IDf3ea2ff8-8a00-429d-ba6f-508543fdbc53" SIZE="145430">
+        <FLocat xlink:href="file://./schemas/IP.xsd" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:20:48" CHECKSUM="89560848168927bac6cf53f3cae6233709420075299e5a6a2793a460f5c2985c" ID="ID2db7c0c1-bb7c-4c90-8cd6-ee64c28df93f" SIZE="133053">
+        <FLocat xlink:href="file://./schemas/mets_1_11.xsd" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:20:48" CHECKSUM="bdfe8d36b44d658d0e3a65f921435e656162e881e19d39d386bb085866c7ec1a" ID="ID37f26ec2-d09d-4540-bf2c-6832c3b3d961" SIZE="65161">
+        <FLocat xlink:href="file://./schemas/premis-v2-2.xsd" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:20:48" CHECKSUM="f1f5bb6003165cdd8f6c1fcc32f8fd1f965e1681010f3b9806d9460bcffa8a3c" ID="ID8bbb84c2-f584-48f2-af4f-0613bbaea823" SIZE="3180">
+        <FLocat xlink:href="file://./schemas/xlink.xsd" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:21:49" CHECKSUM="54ea18645a542b3986bb8d2c7d49c7f86f2a9bd20a693fb46d3e74e9831a79db" ID="ID4a088d14-908b-409b-859c-3118101fe556" SIZE="2051">
+        <FLocat xlink:href="file://./representations/existing_mig-1/METS.xml" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:21:49" CHECKSUM="47fddcd31e09103803a077baa5ffc30f757a67bcf62e99f048bdc8cd19b45ae1" ID="IDef757f81-553f-4f0e-88ea-f3d88149fe1f" SIZE="2041">
+        <FLocat xlink:href="file://./representations/gif-rep/METS.xml" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/xml" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:21:49" CHECKSUM="c1f437c9d4fdc07ca4ecdfe710c81fe255c918f85786e671e77a22d44355723c" ID="ID9a2cb512-daa2-46c6-8d92-d890c5cb7195" SIZE="2098">
+        <FLocat xlink:href="file://./representations/pdf-rep/METS.xml" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files">
+        <fptr FILEID="ID446e25af-2bf2-441a-97ac-a0291f4f6de5"/>
+      </div>
+      <div LABEL="schema files">
+        <fptr FILEID="IDf3ea2ff8-8a00-429d-ba6f-508543fdbc53"/>
+        <fptr FILEID="ID2db7c0c1-bb7c-4c90-8cd6-ee64c28df93f"/>
+        <fptr FILEID="ID37f26ec2-d09d-4540-bf2c-6832c3b3d961"/>
+        <fptr FILEID="ID8bbb84c2-f584-48f2-af4f-0613bbaea823"/>
+      </div>
+      <div LABEL="files from /data"/>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations">
+      <div TYPE="representation mets" ID="ID9dff2132-b4a7-4f3e-b08a-01eb634957f5" LABEL="existing_mig-1">
+        <mptr xlink:href="file://./representations/existing_mig-1/METS.xml" xlink:title="Mets file describing representation: existing_mig-1 of AIP: 3b7f4c9e-a313-468a-a432-3506147d3829." LOCTYPE="URL" ID="IDe2f17959-f116-40a1-9146-a0538d288704"/>
+        <fptr FILEID="ID4a088d14-908b-409b-859c-3118101fe556"/>
+      </div>
+      <div TYPE="representation mets" ID="ID45ddde21-cff8-49f5-acd3-ec7afe72c891" LABEL="gif-rep">
+        <mptr xlink:href="file://./representations/gif-rep/METS.xml" xlink:title="Mets file describing representation: gif-rep of AIP: 3b7f4c9e-a313-468a-a432-3506147d3829." LOCTYPE="URL" ID="ID33fbcb30-7a5e-4cc7-be42-3ee2c327c297"/>
+        <fptr FILEID="IDef757f81-553f-4f0e-88ea-f3d88149fe1f"/>
+      </div>
+      <div TYPE="representation mets" ID="IDe392bc82-5324-4d3f-93d4-e15006e65e57" LABEL="pdf-rep">
+        <mptr xlink:href="file://./representations/pdf-rep/METS.xml" xlink:title="Mets file describing representation: pdf-rep of AIP: 3b7f4c9e-a313-468a-a432-3506147d3829." LOCTYPE="URL" ID="ID2c2c14b1-d526-488d-9065-005457cf9b23"/>
+        <fptr FILEID="ID9a2cb512-daa2-46c6-8d92-d890c5cb7195"/>
+      </div>
+    </div>
+  </structMap>
+</mets>

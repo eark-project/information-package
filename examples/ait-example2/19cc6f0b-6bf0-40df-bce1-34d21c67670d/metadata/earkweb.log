@@ -1,0 +1,99 @@
+2015-11-25 14:22:05 INFO SIPDeliveryValidation task fd7d5e11-97ea-4c1d-862f-bdfdd6b75221
+2015-11-25 14:22:05 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:06 INFO Package file: <Element {http://www.loc.gov/METS/}file at 0x7fbc01e14050>
+2015-11-25 14:22:06 INFO Delivery XML file: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample.xml
+2015-11-25 14:22:06 INFO Schema file: /opt/Projects/EARK/earkweb/earkresources/schemas/mets_1_11.xsd
+2015-11-25 14:22:06 INFO Extracted file reference: file://./earkexample.tar
+2015-11-25 14:22:06 INFO Computing checksum for file: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/./earkexample.tar
+2015-11-25 14:22:06 INFO Checksum is valid.
+2015-11-25 14:22:08 INFO IdentifierAssignment task bcd058a4-851f-4299-b4d0-36cb6b63e05c
+2015-11-25 14:22:08 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:08 INFO New identifier assigned: 19cc6f0b-6bf0-40df-bce1-34d21c67670d
+2015-11-25 14:22:11 INFO SIPExtraction task 8e68d92b-557d-48f5-a956-a2e04b0cc09f
+2015-11-25 14:22:11 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:11 INFO Tar files found: [u'/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample.tar']
+2015-11-25 14:22:15 INFO SIPRestructuring task 79c02ed3-5e85-4aee-b24a-d9fcd4debe59
+2015-11-25 14:22:15 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:15 INFO Tar files found: [u'/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample.tar']
+2015-11-25 14:22:15 INFO Restructuring content of package: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample
+2015-11-25 14:22:15 INFO Move SIP folder '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample/METS.xml' to '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/submission
+2015-11-25 14:22:15 INFO Move SIP folder '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample/state.xml' to '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/submission
+2015-11-25 14:22:15 INFO Move SIP folder '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample/metadata' to '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/submission
+2015-11-25 14:22:15 INFO Move SIP folder '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample/schemas' to '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/submission
+2015-11-25 14:22:15 INFO Move SIP folder '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample/representations' to '/var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/submission
+2015-11-25 14:22:19 INFO SIPValidation task f9c1f86f-449d-4c51-b346-e583a1f84f4c
+2015-11-25 14:22:19 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:19 INFO SIP METS file found: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/submission/METS.xml
+2015-11-25 14:22:24 INFO AIPMigrations task aadaa9fd-78da-4fc6-93a3-01783a504f36
+2015-11-25 14:22:24 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:24 INFO Calling migration task for file: Augustus.pdf
+2015-11-25 14:22:24 INFO Calling migration task for file: soyuslanding.gif
+2015-11-25 14:22:24 INFO Calling migration task for file: bluemarble.gif
+2015-11-25 14:22:24 INFO Calling migration task for file: pluto.gif
+2015-11-25 14:22:24 INFO Calling migration task for file: Suleiman the Magnificent.pdf
+2015-11-25 14:22:24 INFO Calling migration task for file: Horatio Nelson, 1st Viscount Nelson.pdf
+2015-11-25 14:22:24 INFO 6 migrations have been queued, please check for results.
+2015-11-25 14:22:24 INFO MigrationProcess task c854bd92-0faa-4329-84e7-7bc476b27183
+2015-11-25 14:22:24 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:24 INFO Migration task started for file: soyuslanding.gif
+2015-11-25 14:22:24 INFO File soyuslanding.gif is now being migrated to TIFF.
+2015-11-25 14:22:24 INFO Successfully migrated file soyuslanding.gif.
+2015-11-25 14:22:24 INFO MigrationProcess task 06ff0661-db90-4ccd-a821-e7163703977a
+2015-11-25 14:22:24 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:24 INFO Migration task started for file: pluto.gif
+2015-11-25 14:22:24 INFO File pluto.gif is now being migrated to TIFF.
+2015-11-25 14:22:24 INFO Successfully migrated file pluto.gif.
+2015-11-25 14:22:24 INFO MigrationProcess task 9dff89ae-688b-4c72-a4ee-2e98a710e2a1
+2015-11-25 14:22:24 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:24 INFO Migration task started for file: bluemarble.gif
+2015-11-25 14:22:24 INFO File bluemarble.gif is now being migrated to TIFF.
+2015-11-25 14:22:24 INFO Successfully migrated file bluemarble.gif.
+2015-11-25 14:22:24 INFO MigrationProcess task 515349b5-5871-4fa2-b3ea-8fd308ed5779
+2015-11-25 14:22:24 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:24 INFO Migration task started for file: Augustus.pdf
+2015-11-25 14:22:24 INFO File Augustus.pdf is now being migrated to PDF/A.
+2015-11-25 14:22:31 INFO Successfully migrated file Augustus.pdf.
+2015-11-25 14:22:24 INFO MigrationProcess task eab38b7e-2a3a-4130-bac9-eba023c44c1b
+2015-11-25 14:22:24 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:24 INFO Migration task started for file: Horatio Nelson, 1st Viscount Nelson.pdf
+2015-11-25 14:22:25 INFO File Horatio Nelson, 1st Viscount Nelson.pdf is now being migrated to PDF/A.
+2015-11-25 14:22:31 INFO Successfully migrated file Horatio Nelson, 1st Viscount Nelson.pdf.
+2015-11-25 14:22:34 INFO AIPCheckMigrationProgress task 4f229448-983b-49c6-9b2b-0ce74a2b3f29
+2015-11-25 14:22:34 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:34 INFO From a total of 6 migrations, 5 have been successful and 0 failed. Not yet completed: 1 migrations.
+2015-11-25 14:22:34 INFO Migrations are still running, please check back later.
+2015-11-25 14:22:31 INFO MigrationProcess task d4f6b05b-7888-4b03-959e-0cfa4c553f5e
+2015-11-25 14:22:31 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:31 INFO Migration task started for file: Suleiman the Magnificent.pdf
+2015-11-25 14:22:31 INFO File Suleiman the Magnificent.pdf is now being migrated to PDF/A.
+2015-11-25 14:22:35 INFO Successfully migrated file Suleiman the Magnificent.pdf.
+2015-11-25 14:22:41 INFO AIPCheckMigrationProgress task 336d02d7-2085-498a-b803-a215012c1732
+2015-11-25 14:22:41 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:41 INFO From a total of 6 migrations, 6 have been successful and 0 failed. Not yet completed: 0 migrations.
+2015-11-25 14:22:41 INFO All migrations have been successful.
+2015-11-25 14:22:41 INFO MigrationsComplete task 40f54955-56f6-40a9-9488-38e9aa68e3f7
+2015-11-25 14:22:41 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:41 INFO All migration processes are completed, now allowing Mets creation.
+2015-11-25 14:22:47 INFO AIPRepresentationMetsCreation task 64954871-997a-499d-af4f-2d2a66aebf47
+2015-11-25 14:22:47 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:47 INFO Generated a Mets file for representation gif-rep_mig-1.
+2015-11-25 14:22:47 INFO Generated a Mets file for representation existing_mig-2.
+2015-11-25 14:22:47 INFO Generated a Mets file for representation pdf-rep_mig-1.
+2015-11-25 14:22:52 INFO AIPPackageMetsCreation task 4dd7636e-f76d-4b08-95c1-273c108d2787
+2015-11-25 14:22:52 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:22:52 INFO METS updated with AIP content.
+2015-11-25 14:23:08 INFO AIPValidation task f4709482-b06a-4dbd-89ca-ddf7417a6c23
+2015-11-25 14:23:08 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:23:09 INFO Validation result for METS.xml is True.
+2015-11-25 14:23:09 INFO Validation for the submission Mets file is True.
+2015-11-25 14:23:09 INFO Validation for the gif-rep_mig-1 Mets file is True.
+2015-11-25 14:23:10 INFO Validation for the existing_mig-2 Mets file is True.
+2015-11-25 14:23:10 INFO Validation for the pdf-rep_mig-1 Mets file is True.
+2015-11-25 14:23:14 INFO AIPPackaging task 5eb18c9e-4cbc-4488-b681-9d4e54c50119
+2015-11-25 14:23:14 INFO Processing package 3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:23:14 INFO Packaging working directory: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829
+2015-11-25 14:23:14 INFO Creating archive: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/19cc6f0b-6bf0-40df-bce1-34d21c67670d.tar
+2015-11-25 14:23:14 INFO Total number of files in working directory 32
+2015-11-25 14:23:14 INFO Ignoring package file: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample.tar
+2015-11-25 14:23:14 INFO Ignoring delivery XML file: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/earkexample.xml
+2015-11-25 14:23:14 INFO Ignoring status XML file: /var/data/earkweb/work/3b7f4c9e-a313-468a-a432-3506147d3829/state.xml

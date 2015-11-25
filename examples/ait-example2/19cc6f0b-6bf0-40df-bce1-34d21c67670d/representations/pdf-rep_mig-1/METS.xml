@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="AIP" OBJID="pdf-rep_mig-1" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-11-25T14:22:47">
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <dmdSec ID="ID65ea5e28-2ff1-4674-971c-2ec29f08816c"/>
+  <amdSec ID="ID2744af26-a66e-45aa-a8a3-4c3a56cc0a16"/>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="ID6999a4e9-abe9-4bd0-a49d-d045eb9192a3">
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:22:35" CHECKSUM="0ea5683fbec8eb05744ef1563993d49fafbe0fee68f9f1485170e94b0dd647dc" ID="ID37cbb1cd-d046-4c93-ad28-8c949c5558d7" SIZE="2530049">
+        <FLocat xlink:href="file://./data/Suleiman the Magnificent.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:22:31" CHECKSUM="4709a63b3531e1f2748c574acb843580a5962792f99dc0b2a968d50d905bf5d1" ID="IDf23b9620-a72a-4a58-94ba-54867b57d5fa" SIZE="7634806">
+        <FLocat xlink:href="file://./data/Horatio Nelson, 1st Viscount Nelson.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files"/>
+      <div LABEL="schema files"/>
+      <div LABEL="files from /data">
+        <fptr FILEID="ID37cbb1cd-d046-4c93-ad28-8c949c5558d7"/>
+        <fptr FILEID="IDf23b9620-a72a-4a58-94ba-54867b57d5fa"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="SIP" OBJID="3b7f4c9e-a313-468a-a432-3506147d3829" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-11-25T14:21:49">
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <dmdSec ID="ID9cd82944-0175-46d0-908b-fd6dc381b21d"/>
+  <amdSec ID="ID6f8bbfc5-262a-44ca-9ed8-b0699ac0e33c"/>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="ID2feb9f0c-9cfc-4a4e-a046-61b2763c60f6">
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:21:45" CHECKSUM="67bff245774252235a93a1f0f0c5b7bcfe6206acc3bfebcf8dc9ba410720fe1f" ID="IDb103f17a-7c74-4fec-a7e0-136e355fdeb4" SIZE="3002243">
+        <FLocat xlink:href="file://./data/Augustus.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="image/gif" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:21:41" CHECKSUM="010ad4ae88bf587408ae148e7210f8fd17232325abeeb1109164692bdbac13ce" ID="ID60653c5f-903a-4524-a031-5c7291315837" SIZE="675737">
+        <FLocat xlink:href="file://./data/soyuslanding.gif" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files"/>
+      <div LABEL="schema files"/>
+      <div LABEL="files from /data">
+        <fptr FILEID="IDb103f17a-7c74-4fec-a7e0-136e355fdeb4"/>
+        <fptr FILEID="ID60653c5f-903a-4524-a031-5c7291315837"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>

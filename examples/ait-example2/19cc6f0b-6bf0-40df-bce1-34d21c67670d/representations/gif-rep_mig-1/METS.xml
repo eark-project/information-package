@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="AIP" OBJID="gif-rep_mig-1" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-11-25T14:22:47">
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <dmdSec ID="ID5159fa52-11ac-4c05-b0a7-523b79d1bce2"/>
+  <amdSec ID="ID722bf635-2fb8-40ec-ab45-f25319cd5c48"/>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="IDbe09e4d0-2fa7-4520-90ed-7683f8835c55">
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:22:24" CHECKSUM="9db51d4e76032f27597f02b418794a4e64e2d02783c43dfef910543065914c77" ID="ID91263722-d7c3-4ec3-9f36-71ae3df4e50b" SIZE="1968757">
+        <FLocat xlink:href="file://./data/pluto.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:22:24" CHECKSUM="08e37e0b413c8e3afc7e8d1820ff67811871a6ed3800681312dee3fdfdaca98e" ID="ID77036e8e-dd6b-42eb-a8c4-ec72f5800d1b" SIZE="1746310">
+        <FLocat xlink:href="file://./data/bluemarble.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files"/>
+      <div LABEL="schema files"/>
+      <div LABEL="files from /data">
+        <fptr FILEID="ID91263722-d7c3-4ec3-9f36-71ae3df4e50b"/>
+        <fptr FILEID="ID77036e8e-dd6b-42eb-a8c4-ec72f5800d1b"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>

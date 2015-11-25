@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="AIP" OBJID="existing_mig-2" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd ExtensionMETS schemas/ExtensionMETS.xsd http://www.w3.org/1999/xlink schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-11-25T14:22:47">
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <dmdSec ID="IDedff098c-973f-4e28-9aac-692cf295d189"/>
+  <amdSec ID="ID48aa1162-e03f-473d-b282-64c2878e9154"/>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="ID768a33e4-e082-47e1-8561-2bb7b62c80f9">
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:22:31" CHECKSUM="7c3e611f11dc28aae5ee145364935d75a29b0a7ed51be7f3c80d1a1f1d609124" ID="ID32a9f702-f40b-4f98-90dd-b6953dd6c7b1" SIZE="3695772">
+        <FLocat xlink:href="file://./data/Augustus.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-11-25T14:22:24" CHECKSUM="4d0f00d3f76240eb26da5f06f1debc82735a8be6b508f95f94bb8698300abc30" ID="ID9c761864-90b9-4f30-9930-267421c6dd12" SIZE="771371">
+        <FLocat xlink:href="file://./data/soyuslanding.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files"/>
+      <div LABEL="schema files"/>
+      <div LABEL="files from /data">
+        <fptr FILEID="ID32a9f702-f40b-4f98-90dd-b6953dd6c7b1"/>
+        <fptr FILEID="ID9c761864-90b9-4f30-9930-267421c6dd12"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>
