@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="AIP" OBJID="aip-imgs_mig-1" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ ../../schemas/mets_1_11.xsd http://www.w3.org/1999/xlink ../../schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-12-04T10:00:18">
+    <agent TYPE="OTHER" ROLE="CREATOR" OTHERTYPE="SOFTWARE">
+      <name>E-ARK earkweb</name>
+      <note>VERSION=0.0.1</note>
+    </agent>
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <amdSec ID="ID1276c758-3413-4d3d-8259-655011b6ffe7">
+    <digiprovMD ID="ID4e01277d-158c-48e3-a032-bc5c3e39592b">
+      <mdRef MIMETYPE="application/xml" xlink:href="file://./metadata/preservation/premis.xml" LOCTYPE="URL" CREATED="2015-12-04T10:00:18" CHECKSUM="6d19f7523201c8943466e811de979a1a60f3f34756815fb495eed59e07956512" xlink:type="simple" ID="ID8b7e4929-e016-4184-a768-b32fd2515f55" MDTYPE="PREMIS" CHECKSUMTYPE="SHA-256"/>
+    </digiprovMD>
+  </amdSec>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="IDb703f118-b23e-4296-a779-4e307e288513">
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T10:00:03" CHECKSUM="0c3a4f8594a9644af8fd1aabce29f164f2715ab2b91105857511b5aafe231d95" ID="ID08aaa8bb-0ed2-4807-9ec7-2e06120a5b48" SIZE="1968759">
+        <FLocat xlink:href="file://./data/pluto.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:59:55" CHECKSUM="1ecff63d15904b1ba419fbaca823b5f9c8da6e768ce3c5bfa88e68093d7fc635" ID="ID8066255b-cb5a-4b61-8ad4-76e071e19a98" SIZE="1746310">
+        <FLocat xlink:href="file://./data/bluemarble.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="image/tiff" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T10:00:00" CHECKSUM="b7f80b3d0950ede39c96235e1e06a17e8f82143f0b24bd59fc7ae8c0fea40d3b" ID="ID1e062871-6f4c-43e0-95d1-444bb6a0cfc1" SIZE="771371">
+        <FLocat xlink:href="file://./data/soyuslanding.tiff" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="physical" LABEL="earkstructmap">
+    <div LABEL="aip-imgs_mig-1">
+      <div LABEL="metadata">
+        <fptr FILEID="ID8b7e4929-e016-4184-a768-b32fd2515f55"/>
+      </div>
+      <div LABEL="data">
+        <fptr FILEID="ID08aaa8bb-0ed2-4807-9ec7-2e06120a5b48"/>
+        <fptr FILEID="ID8066255b-cb5a-4b61-8ad4-76e071e19a98"/>
+        <fptr FILEID="ID1e062871-6f4c-43e0-95d1-444bb6a0cfc1"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files">
+        <fptr FILEID="ID8b7e4929-e016-4184-a768-b32fd2515f55"/>
+      </div>
+      <div LABEL="schema files"/>
+      <div LABEL="files from /data">
+        <fptr FILEID="ID08aaa8bb-0ed2-4807-9ec7-2e06120a5b48"/>
+        <fptr FILEID="ID8066255b-cb5a-4b61-8ad4-76e071e19a98"/>
+        <fptr FILEID="ID1e062871-6f4c-43e0-95d1-444bb6a0cfc1"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>

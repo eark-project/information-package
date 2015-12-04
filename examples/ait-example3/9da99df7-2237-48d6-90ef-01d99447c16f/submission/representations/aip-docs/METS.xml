@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="SIP" OBJID="7a7042ec-385e-4465-b1e0-7a625f16b01a" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ ../../schemas/mets_1_11.xsd http://www.w3.org/1999/xlink ../../schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2015-12-04T09:59:22">
+    <agent TYPE="OTHER" ROLE="CREATOR" OTHERTYPE="SOFTWARE">
+      <name>E-ARK earkweb</name>
+      <note>VERSION=0.0.1</note>
+    </agent>
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <amdSec ID="IDfe3cb6e9-33b5-481f-b92b-4d003ae58576">
+    <digiprovMD ID="ID2758cf13-e438-4695-aeb8-43a6eda9a1ac">
+      <mdRef MIMETYPE="application/xml" xlink:href="file://./metadata/preservation/premis.xml" LOCTYPE="URL" CREATED="2015-12-04T09:59:22" CHECKSUM="987a74238c597d64c44a64e87fca7173172bd9d8bdd0429808a7647430cd8eba" xlink:type="simple" ID="IDa5784225-a904-4edc-8fb9-7334c12f66e2" MDTYPE="PREMIS" CHECKSUMTYPE="SHA-256"/>
+    </digiprovMD>
+  </amdSec>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="IDd69ca2e7-ff2a-46d9-a807-339996ed7815">
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:58:53" CHECKSUM="3f4568395d215b12d50adc1dc291e612129d66f9b28247cdd5f85953e4d1165c" ID="ID514fd2fe-7f99-4621-8dd0-d02387ca3dcb" SIZE="2295033">
+        <FLocat xlink:href="file://./data/Albert Einstein.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:58:56" CHECKSUM="67bff245774252235a93a1f0f0c5b7bcfe6206acc3bfebcf8dc9ba410720fe1f" ID="IDea3bc95e-8c2e-4be2-b10e-b30ac0379111" SIZE="3002243">
+        <FLocat xlink:href="file://./data/Augustus.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:58:58" CHECKSUM="27c197561d17887bb40c25a635feb61bfa6ef48902af2e9f49b54d4ebb5dc4cf" ID="ID6f9a0b92-5c4b-40fa-b88c-229d8f4211f3" SIZE="3931679">
+        <FLocat xlink:href="file://./data/Charlemagne.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="physical" LABEL="earkstructmap">
+    <div LABEL="7a7042ec-385e-4465-b1e0-7a625f16b01a">
+      <div LABEL="documentation"/>
+      <div LABEL="metadata">
+        <fptr FILEID="IDa5784225-a904-4edc-8fb9-7334c12f66e2"/>
+      </div>
+      <div LABEL="schemas"/>
+      <div LABEL="data">
+        <fptr FILEID="ID514fd2fe-7f99-4621-8dd0-d02387ca3dcb"/>
+        <fptr FILEID="IDea3bc95e-8c2e-4be2-b10e-b30ac0379111"/>
+        <fptr FILEID="ID6f9a0b92-5c4b-40fa-b88c-229d8f4211f3"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files">
+        <fptr FILEID="IDa5784225-a904-4edc-8fb9-7334c12f66e2"/>
+      </div>
+      <div LABEL="schema files"/>
+      <div LABEL="files from /data">
+        <fptr FILEID="ID514fd2fe-7f99-4621-8dd0-d02387ca3dcb"/>
+        <fptr FILEID="IDea3bc95e-8c2e-4be2-b10e-b30ac0379111"/>
+        <fptr FILEID="ID6f9a0b92-5c4b-40fa-b88c-229d8f4211f3"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="representations">
+    <div TYPE="type" LABEL="representations"/>
+  </structMap>
+</mets>

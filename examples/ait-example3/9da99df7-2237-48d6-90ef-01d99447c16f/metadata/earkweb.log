@@ -1,0 +1,89 @@
+2015-12-04 09:59:35 INFO SIPDeliveryValidation task 2ec3cd9d-2885-4a1d-9714-4630c6c0895a
+2015-12-04 09:59:35 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:35 INFO Package file: <Element {http://www.loc.gov/METS/}file at 0x7fabcc47ac20>
+2015-12-04 09:59:35 INFO Delivery XML file: /var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/METS.xml
+2015-12-04 09:59:35 INFO Schema file: /opt/Projects/EARK/earkweb/earkresources/schemas/mets_1_11.xsd
+2015-12-04 09:59:35 INFO Extracted file reference: file://./schemas/IP.xsd
+2015-12-04 09:59:35 INFO Computing checksum for file: /var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/./schemas/IP.xsd
+2015-12-04 09:59:35 INFO Checksum is valid.
+2015-12-04 09:59:37 INFO IdentifierAssignment task 888422e9-4abf-4027-9e8b-5fd56e356fb9
+2015-12-04 09:59:37 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:37 INFO New identifier assigned: 9da99df7-2237-48d6-90ef-01d99447c16f
+2015-12-04 09:59:41 INFO SIPExtraction task b9b9cd07-c685-43b0-946e-3069ab274e64
+2015-12-04 09:59:41 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:41 INFO Tar files found: [u'/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample.tar']
+2015-12-04 09:59:45 INFO SIPRestructuring task 9eb14c63-a013-42a1-812e-55cbe251ddaf
+2015-12-04 09:59:45 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:45 INFO Tar files found: [u'/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample.tar']
+2015-12-04 09:59:45 INFO Restructuring content of package: /var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample
+2015-12-04 09:59:45 INFO Move SIP folder '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample/METS.xml' to '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/submission
+2015-12-04 09:59:45 INFO Move SIP folder '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample/state.xml' to '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/submission
+2015-12-04 09:59:45 INFO Move SIP folder '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample/metadata' to '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/submission
+2015-12-04 09:59:45 INFO Move SIP folder '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample/schemas' to '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/submission
+2015-12-04 09:59:45 INFO Move SIP folder '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/aipexample/representations' to '/var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/submission
+2015-12-04 09:59:50 INFO SIPValidation task 8b629720-765f-41a6-9098-c8224bc3b033
+2015-12-04 09:59:50 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:50 INFO SIP METS file found: /var/data/earkweb/work/7a7042ec-385e-4465-b1e0-7a625f16b01a/submission/METS.xml
+2015-12-04 09:59:54 INFO AIPMigrations task e70290c3-104f-4a10-94d8-41529a02ebd1
+2015-12-04 09:59:54 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:54 INFO File Albert Einstein.pdf is queued for migration to PDF/A.
+2015-12-04 09:59:54 INFO Migration queued for Albert Einstein.pdf.
+2015-12-04 09:59:54 INFO File Augustus.pdf is queued for migration to PDF/A.
+2015-12-04 09:59:54 INFO Migration queued for Augustus.pdf.
+2015-12-04 09:59:54 INFO File Charlemagne.pdf is queued for migration to PDF/A.
+2015-12-04 09:59:54 INFO Migration queued for Charlemagne.pdf.
+2015-12-04 09:59:54 INFO File bluemarble.gif is queued for migration to TIFF.
+2015-12-04 09:59:54 INFO Migration queued for bluemarble.gif.
+2015-12-04 09:59:54 INFO File soyuslanding.gif is queued for migration to TIFF.
+2015-12-04 09:59:54 INFO Migration queued for soyuslanding.gif.
+2015-12-04 09:59:54 INFO File pluto.gif is queued for migration to TIFF.
+2015-12-04 09:59:54 INFO Migration queued for pluto.gif.
+2015-12-04 09:59:54 INFO 6 migrations have been queued, please check the progress with the task AIPCheckMigrationProgress.
+2015-12-04 09:59:54 INFO MigrationProcess task 6994feef-6c0d-4bf7-9730-b8feebfebcb4
+2015-12-04 09:59:54 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:54 INFO Migration task started for file: bluemarble.gif
+2015-12-04 09:59:55 INFO Successfully migrated file bluemarble.gif.
+2015-12-04 09:59:54 INFO MigrationProcess task f7dfbf92-0145-4d76-98a6-21f0ceaaa2b2
+2015-12-04 09:59:54 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:54 INFO Migration task started for file: Albert Einstein.pdf
+2015-12-04 10:00:00 INFO Successfully migrated file Albert Einstein.pdf.
+2015-12-04 10:00:00 INFO MigrationProcess task ff35c58b-86a8-4f14-b205-e1198df7bccd
+2015-12-04 10:00:00 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:00 INFO Migration task started for file: soyuslanding.gif
+2015-12-04 10:00:01 INFO Successfully migrated file soyuslanding.gif.
+2015-12-04 09:59:54 INFO MigrationProcess task ea29f5f1-e149-4f0a-998d-2e4cc5769813
+2015-12-04 09:59:54 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:54 INFO Migration task started for file: Augustus.pdf
+2015-12-04 10:00:03 INFO Successfully migrated file Augustus.pdf.
+2015-12-04 10:00:03 INFO MigrationProcess task 911091fe-bb21-4ffc-9ba1-d2256506f82d
+2015-12-04 10:00:03 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:03 INFO Migration task started for file: pluto.gif
+2015-12-04 10:00:03 INFO Successfully migrated file pluto.gif.
+2015-12-04 09:59:54 INFO MigrationProcess task 5dd3bb4e-47ec-4ed0-9eb3-e07b4acb0ecf
+2015-12-04 09:59:54 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 09:59:54 INFO Migration task started for file: Charlemagne.pdf
+2015-12-04 10:00:06 INFO Successfully migrated file Charlemagne.pdf.
+2015-12-04 10:00:06 INFO AIPCheckMigrationProgress task d6b64237-d29e-4493-a2f6-b79c1d3799ad
+2015-12-04 10:00:06 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:06 INFO From a total of 6 migrations, 6 have been successful and 0 failed. Not yet completed: 0 migrations.
+2015-12-04 10:00:06 INFO All migrations have been successful.
+2015-12-04 10:00:06 INFO MigrationsComplete task 1e488847-0ff8-40d4-8805-930a143c2319
+2015-12-04 10:00:06 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:06 INFO All migration processes are completed, now allowing Mets creation.
+2015-12-04 10:00:13 INFO CreatePremisAfterMigration task 470c47a8-ba67-416f-a162-005016f9d6ad
+2015-12-04 10:00:13 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:13 INFO Generated a Premis file for the representation aip-docs_mig-1.
+2015-12-04 10:00:13 INFO Generated a Premis file for the representation aip-imgs_mig-1.
+2015-12-04 10:00:18 INFO AIPRepresentationMetsCreation task 49f22d57-e920-46f8-9dee-4e5411534c59
+2015-12-04 10:00:18 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:18 INFO Generated a Mets file for representation aip-docs_mig-1.
+2015-12-04 10:00:18 INFO Generated a Mets file for representation aip-imgs_mig-1.
+2015-12-04 10:00:21 INFO AIPPackageMetsCreation task e0cd1b7c-0543-42b2-90c3-00a6defee558
+2015-12-04 10:00:21 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:21 INFO METS updated with AIP content.
+2015-12-04 10:00:25 INFO AIPValidation task db59ef2d-8603-4ed0-a407-740e0f417850
+2015-12-04 10:00:25 INFO Processing package 7a7042ec-385e-4465-b1e0-7a625f16b01a
+2015-12-04 10:00:25 INFO Validation result for METS.xml is True.
+2015-12-04 10:00:25 INFO Validation for the submission Mets file is True.
+2015-12-04 10:00:25 INFO Validation for the aip-docs_mig-1 Mets file is True.
+2015-12-04 10:00:25 INFO Validation for the aip-imgs_mig-1 Mets file is True.

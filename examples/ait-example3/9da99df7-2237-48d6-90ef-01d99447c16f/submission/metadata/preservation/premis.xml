@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<premis xmlns="info:lc/xmlns/premis-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="info:lc/xmlns/premis-v2 ../../schemas/premis-v2-2.xsd">
+  <object xmlID="ID5296310e-91d6-4b50-b1f2-5b07b70dfe3c" xsi:type="representation">
+    <objectIdentifier>
+      <objectIdentifierType>repository</objectIdentifierType>
+      <objectIdentifierValue>package-id-goes-here-?</objectIdentifierValue>
+    </objectIdentifier>
+  </object>
+  <event><eventIdentifier><eventIdentifierType>local</eventIdentifierType><eventIdentifierValue>IDd4415e78-322a-42b1-b09d-7a8aab113ce0</eventIdentifierValue></eventIdentifier><eventType>not in vocabulary</eventType><eventDateTime>2015-12-04T09:59:22</eventDateTime><eventOutcomeInformation><eventOutcome>success</eventOutcome></eventOutcomeInformation><linkingAgentIdentifier><linkingAgentIdentifierType>software</linkingAgentIdentifierType><linkingAgentIdentifierValue>SIPPackageMetadataCreation</linkingAgentIdentifierValue></linkingAgentIdentifier><linkingObjectIdentifier><linkingObjectIdentifierType>repository</linkingObjectIdentifierType><linkingObjectIdentifierValue></linkingObjectIdentifierValue></linkingObjectIdentifier></event><agent>
+    <agentIdentifier>
+      <agentIdentifierType>LOCAL</agentIdentifierType>
+      <agentIdentifierValue>earkweb</agentIdentifierValue>
+    </agentIdentifier>
+    <agentName>E-ARK AIP to DIP Converter</agentName>
+    <agentType>Software</agentType>
+  </agent>
+</premis>

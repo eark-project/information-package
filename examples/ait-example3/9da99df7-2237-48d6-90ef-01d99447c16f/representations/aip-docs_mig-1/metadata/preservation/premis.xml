@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<premis xmlns="info:lc/xmlns/premis-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="info:lc/xmlns/premis-v2 ../../schemas/premis-v2-2.xsd">
+  <object xmlID="ID5789e0d2-39cc-4558-ad15-852879d9ddab" xsi:type="representation">
+    <objectIdentifier>
+      <objectIdentifierType>repository</objectIdentifierType>
+      <objectIdentifierValue>package-id-goes-here-?</objectIdentifierValue>
+    </objectIdentifier>
+  </object>
+  <object xmlID="IDa03b9d4b-9798-4f64-b188-b540805f5c88" xsi:type="file">
+    <objectIdentifier>
+      <objectIdentifierType>filepath</objectIdentifierType>
+      <objectIdentifierValue>file://./data/Albert Einstein.pdf</objectIdentifierValue>
+    </objectIdentifier>
+    <objectCharacteristics>
+      <compositionLevel>0</compositionLevel>
+      <fixity>
+        <messageDigestAlgorithm>SHA-256</messageDigestAlgorithm>
+        <messageDigest>16810cad49408533138b27b89ef8d541d4853e0c06a97a89828a82ea06950d96</messageDigest>
+        <messageDigestOriginator>hashlib</messageDigestOriginator>
+      </fixity>
+      <size>1429869</size>
+      <format>
+        <formatRegistry>
+          <formatRegistryName>PRONOM</formatRegistryName>
+          <formatRegistryKey>fmt/18</formatRegistryKey>
+          <formatRegistryRole>identification</formatRegistryRole>
+        </formatRegistry>
+      </format>
+    </objectCharacteristics>
+    <relationship>
+      <relationshipType>derivation</relationshipType>
+      <relationshipSubType>has source</relationshipSubType>
+      <relatedObjectIdentification>
+        <relatedObjectIdentifierType>filepath</relatedObjectIdentifierType>
+        <relatedObjectIdentifierValue>file://./../../submission/representations/aip-docs/data/Albert Einstein.pdf</relatedObjectIdentifierValue>
+        <relatedObjectSequence>0</relatedObjectSequence>
+      </relatedObjectIdentification>
+      <relatedEventIdentification>
+        <relatedEventIdentifierType>local</relatedEventIdentifierType>
+        <relatedEventIdentifierValue>ID93c4f4a0-7907-4d05-b4ed-6b79045222d9</relatedEventIdentifierValue>
+        <relatedEventSequence>1</relatedEventSequence>
+      </relatedEventIdentification>
+    </relationship>
+  </object>
+  <object xmlID="ID5248c9fe-4624-4cbe-8585-90ee1e57ef9d" xsi:type="file">
+    <objectIdentifier>
+      <objectIdentifierType>filepath</objectIdentifierType>
+      <objectIdentifierValue>file://./data/Augustus.pdf</objectIdentifierValue>
+    </objectIdentifier>
+    <objectCharacteristics>
+      <compositionLevel>0</compositionLevel>
+      <fixity>
+        <messageDigestAlgorithm>SHA-256</messageDigestAlgorithm>
+        <messageDigest>f73e0d8dc1c53a0ab010f76906aaa8aa77d2dfe6fffa4b196466b1ed0886026b</messageDigest>
+        <messageDigestOriginator>hashlib</messageDigestOriginator>
+      </fixity>
+      <size>3695772</size>
+      <format>
+        <formatRegistry>
+          <formatRegistryName>PRONOM</formatRegistryName>
+          <formatRegistryKey>fmt/18</formatRegistryKey>
+          <formatRegistryRole>identification</formatRegistryRole>
+        </formatRegistry>
+      </format>
+    </objectCharacteristics>
+    <relationship>
+      <relationshipType>derivation</relationshipType>
+      <relationshipSubType>has source</relationshipSubType>
+      <relatedObjectIdentification>
+        <relatedObjectIdentifierType>filepath</relatedObjectIdentifierType>
+        <relatedObjectIdentifierValue>file://./../../submission/representations/aip-docs/data/Augustus.pdf</relatedObjectIdentifierValue>
+        <relatedObjectSequence>0</relatedObjectSequence>
+      </relatedObjectIdentification>
+      <relatedEventIdentification>
+        <relatedEventIdentifierType>local</relatedEventIdentifierType>
+        <relatedEventIdentifierValue>IDb46e0a56-0f9a-497c-a545-0c217d3e2c8c</relatedEventIdentifierValue>
+        <relatedEventSequence>1</relatedEventSequence>
+      </relatedEventIdentification>
+    </relationship>
+  </object>
+  <object xmlID="ID5c3edcbb-a9d2-4a58-a12e-f48b8af3a34a" xsi:type="file">
+    <objectIdentifier>
+      <objectIdentifierType>filepath</objectIdentifierType>
+      <objectIdentifierValue>file://./data/Charlemagne.pdf</objectIdentifierValue>
+    </objectIdentifier>
+    <objectCharacteristics>
+      <compositionLevel>0</compositionLevel>
+      <fixity>
+        <messageDigestAlgorithm>SHA-256</messageDigestAlgorithm>
+        <messageDigest>ac939e330214e71a6fe8e81c97fb8e4cacd9860fb13c1a681d16c89b0db59d10</messageDigest>
+        <messageDigestOriginator>hashlib</messageDigestOriginator>
+      </fixity>
+      <size>7603618</size>
+      <format>
+        <formatRegistry>
+          <formatRegistryName>PRONOM</formatRegistryName>
+          <formatRegistryKey>fmt/18</formatRegistryKey>
+          <formatRegistryRole>identification</formatRegistryRole>
+        </formatRegistry>
+      </format>
+    </objectCharacteristics>
+    <relationship>
+      <relationshipType>derivation</relationshipType>
+      <relationshipSubType>has source</relationshipSubType>
+      <relatedObjectIdentification>
+        <relatedObjectIdentifierType>filepath</relatedObjectIdentifierType>
+        <relatedObjectIdentifierValue>file://./../../submission/representations/aip-docs/data/Charlemagne.pdf</relatedObjectIdentifierValue>
+        <relatedObjectSequence>0</relatedObjectSequence>
+      </relatedObjectIdentification>
+      <relatedEventIdentification>
+        <relatedEventIdentifierType>local</relatedEventIdentifierType>
+        <relatedEventIdentifierValue>ID3fe52287-f2d1-4cce-9afb-a6b1f4c2a0ea</relatedEventIdentifierValue>
+        <relatedEventSequence>1</relatedEventSequence>
+      </relatedEventIdentification>
+    </relationship>
+  </object>
+  <event>
+    <eventIdentifier>
+      <eventIdentifierType>local</eventIdentifierType>
+      <eventIdentifierValue>ID93c4f4a0-7907-4d05-b4ed-6b79045222d9</eventIdentifierValue>
+    </eventIdentifier>
+    <eventType>migration</eventType>
+    <eventDateTime>2015-12-04T09:59:54</eventDateTime>
+    <eventOutcomeInformation>
+      <eventOutcome>success</eventOutcome>
+    </eventOutcomeInformation>
+    <linkingAgentIdentifier>
+      <linkingAgentIdentifierType>software</linkingAgentIdentifierType>
+      <linkingAgentIdentifierValue>should probably come from migrations.xml</linkingAgentIdentifierValue>
+    </linkingAgentIdentifier>
+    <linkingObjectIdentifier>
+      <linkingObjectIdentifierType>filepath</linkingObjectIdentifierType>
+      <linkingObjectIdentifierValue>file://./data/Albert Einstein.pdf</linkingObjectIdentifierValue>
+    </linkingObjectIdentifier>
+  </event>
+  <event>
+    <eventIdentifier>
+      <eventIdentifierType>local</eventIdentifierType>
+      <eventIdentifierValue>IDb46e0a56-0f9a-497c-a545-0c217d3e2c8c</eventIdentifierValue>
+    </eventIdentifier>
+    <eventType>migration</eventType>
+    <eventDateTime>2015-12-04T09:59:54</eventDateTime>
+    <eventOutcomeInformation>
+      <eventOutcome>success</eventOutcome>
+    </eventOutcomeInformation>
+    <linkingAgentIdentifier>
+      <linkingAgentIdentifierType>software</linkingAgentIdentifierType>
+      <linkingAgentIdentifierValue>should probably come from migrations.xml</linkingAgentIdentifierValue>
+    </linkingAgentIdentifier>
+    <linkingObjectIdentifier>
+      <linkingObjectIdentifierType>filepath</linkingObjectIdentifierType>
+      <linkingObjectIdentifierValue>file://./data/Augustus.pdf</linkingObjectIdentifierValue>
+    </linkingObjectIdentifier>
+  </event>
+  <event>
+    <eventIdentifier>
+      <eventIdentifierType>local</eventIdentifierType>
+      <eventIdentifierValue>ID3fe52287-f2d1-4cce-9afb-a6b1f4c2a0ea</eventIdentifierValue>
+    </eventIdentifier>
+    <eventType>migration</eventType>
+    <eventDateTime>2015-12-04T09:59:54</eventDateTime>
+    <eventOutcomeInformation>
+      <eventOutcome>success</eventOutcome>
+    </eventOutcomeInformation>
+    <linkingAgentIdentifier>
+      <linkingAgentIdentifierType>software</linkingAgentIdentifierType>
+      <linkingAgentIdentifierValue>should probably come from migrations.xml</linkingAgentIdentifierValue>
+    </linkingAgentIdentifier>
+    <linkingObjectIdentifier>
+      <linkingObjectIdentifierType>filepath</linkingObjectIdentifierType>
+      <linkingObjectIdentifierValue>file://./data/Charlemagne.pdf</linkingObjectIdentifierValue>
+    </linkingObjectIdentifier>
+  </event>
+  <agent>
+    <agentIdentifier>
+      <agentIdentifierType>LOCAL</agentIdentifierType>
+      <agentIdentifierValue>earkweb</agentIdentifierValue>
+    </agentIdentifier>
+    <agentName>E-ARK AIP to DIP Converter</agentName>
+    <agentType>Software</agentType>
+  </agent>
+</premis>
