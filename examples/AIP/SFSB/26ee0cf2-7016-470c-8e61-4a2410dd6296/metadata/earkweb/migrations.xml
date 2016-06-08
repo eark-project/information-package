@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<migrations xmlns:py="http://codespeak.net/lxml/objectify/pytype" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" source="source representation" target="target representation" total="1" py:pytype="TREE">
+  <migration endtime="" file="Example1.pdf" output="Example1.pdf" sourcedir="/var/data/earkweb/work/8cf1a035-0792-4175-bce0-383fc9b18a9c/submission/representations/rep2/data" starttime="2016-06-08T08:08:05" status="successful" targetdir="/var/data/earkweb/work/8cf1a035-0792-4175-bce0-383fc9b18a9c/representations/rep2_mig-1/data" targetrep="rep2_mig-1" taskid="035e1265-7214-421c-8b6e-50b8b6fd0799"/>
+</migrations>

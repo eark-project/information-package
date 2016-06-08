@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- A root level METS file. -->
+<!-- This root level METS.xml file is for the IP as a whole and does not describe single representations-->
+<mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="03a92832-9813-4496-b7d3-f98a2d30e0b3" TYPE="SIP:ERMS" PROFILE="http://www.ra.ee/METS/v02/METS.xml" xsi:schemaLocation="http://www.loc.gov/METS/ schemas/mets.xsd" LABEL="root level METS file for an IP">	
+    <metsHdr CREATEDATE="2016-04-26T13:03:09.707+03:00"  RECORDSTATUS="NEW" LASTMODDATE="2016-04-26T13:03:09.707+03:00">
+        <agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE"> <!-- The software which has been used to create the package (mandatory) -->
+            <name>UAM</name> <!-- The name of the software -->
+        </agent>
+        <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION"> <!-- Archival creator (mandatory in the SIP, but not in the CS)-->
+            <name>Public Health Agency</name> <!-- Name of the archival creator (mandatory)-->
+            <note>123AAA</note> <!-- Archival creator identification code (not mandatory) -->
+        </agent>
+        <agent ROLE="CREATOR" TYPE="ORGANIZATION"> <!-- Submitting organisation (mandatory in the SIP, but not in the CS)-->
+            <name>Ministry of Health and Care Services</name> <!-- Name of the submitting organisation (mandatory)-->
+            <note>123BBB</note> <!-- Submitting organisation identification code (not mandatory) -->
+        </agent>
+        <agent ROLE="CREATOR" TYPE="INDIVIDUAL"> <!-- Contact person for submission (not mandatory)-->
+            <name>Sven Svensson</name> <!-- Full name of the contact person -->
+            <note>sven.svensson@fm.se</note> <!-- Contact information for the contact person -->
+        </agent>
+        <agent ROLE="PRESERVATION" TYPE="ORGANIZATION"> <!-- Preservation organisation name (mandatory in the SIP, but not in the CS)-->
+            <name>National Archives of Hungary</name>
+            <note>123CCC</note> <!-- Preservation organisation identification code (not mandatory) -->
+        </agent>
+        <altRecordID ID="aae04aa9-f254-4774-ad64-b7a9325ff12e" TYPE="SUBMISSIONAGREEMENT">20022838</altRecordID> <!-- Reference to the submission agreement (not mandatory) -->
+        <altRecordID ID="bae05aa9-f254-4774-ad64-b7a9325ff12e" TYPE="PREVIOUSSUBMISSIONAGREEMENT">20022837</altRecordID> <!-- Reference to the previous submission agreement the information belongs to in the case the information is recorded (not mandatory) -->
+        <altRecordID ID="aab05aa9-f254-4774-ad64-b7a9325ff12e" TYPE="REFERENCECODE">SE/RA/123456/24/P</altRecordID> <!-- Archival reference code (not mandatory) -->
+        <altRecordID ID="aac06aa9-f254-4774-ad64-b7a9325ff12e" TYPE="PREVIOUSREFERENCECODE">SE/FM/123/123.1/123.1.3</altRecordID> <!-- Previous archival reference code (not mandatory) -->
+        <metsDocumentID>ac17f8fd-dc24-4102-84e2-7420c51b4882</metsDocumentID> <!-- CS optional, required to be equal to OBJID -->
+    </metsHdr>
+    <dmdSec ID="aa3757f5-cc51-409c-8b2b-4c5ff9abc891"> <!-- This dmdSec is for EAD metadata -->
+        <mdRef ID="cf1384c9-c723-40af-86d0-cd452e160546" LOCTYPE="URL" MDTYPE="EAD" MDTYPEVERSION="3" xlink:type="simple" xlink:href="file:metadata/descriptive/ead.xml" MIMETYPE="text/xml" SIZE="5295" CREATED="2016-04-26T12:54:31.707+03:00" CHECKSUM="83b741975dce8546eb931b748a903c4a11911a22a2b9f706922277170e28812c" CHECKSUMTYPE="SHA-256"/>
+    </dmdSec> 
+    <!-- If EAC-CPF descriptions about the archival creator exist then they should be referenced in dmdSec as a file -->
+    <dmdSec ID="aa4257f5-cc51-409c-8b2b-4c5ff9abc891"> <!-- This dmdSec is for EAC-CPF metadata -->
+        <mdRef ID="ec2184c9-c723-40af-86d0-cd452e160546" LOCTYPE="URL" MDTYPE="EAC-CPF" MDTYPEVERSION="2010" xlink:type="simple" xlink:href="file:metadata/descriptive/eaccpf.xml" MIMETYPE="text/xml" SIZE="7387" CREATED="2016-05-03T08:53:16.707+03:00" CHECKSUM="f47bbbe2d37d962aad5c32f8a33f4af7e37f6e8db17ae0bb80cf42495457cdf4" CHECKSUMTYPE="SHA-256"/></dmdSec>
+    <amdSec ID="d9e04aa9-f254-4774-ad64-b7a9325ff12e"/>
+    <fileSec ID="a1558b93-385a-46c6-9d7a-359890a8569a">
+        <fileGrp ID="a397f00c-7497-4fa8-841d-ce40b24231ac" USE="E-ARK files root">
+            <fileGrp ID="dfc36fde-308c-4071-a84b-55647db86f30" USE="representations"/>
+            <fileGrp ID="dfbb17e4-a314-4dea-b1d2-9bc68fc41523" USE="data"/>
+            <fileGrp ID="b65d3146-b159-4123-a401-3aa2cdec6a6a" USE="schemas">
+                <file ID="c175fd9f-a600-4119-9f72-8dcb50bae00e" MIMETYPE="text/xml" SIZE="99080" CREATED="2016-04-26T13:03:09.707+03:00" CHECKSUM="48c2ebdfce7a9215cbd2008b81dece8f3bad1677b87854e5c953eeba2d0189c3" CHECKSUMTYPE="SHA-256"> <!-- Following additional elements are allowed to be used for files, but they are not mandatory:
+ext:FILEFORMATNAME (e.g. PDF/A), 
+ext:FILEFORMATVERSION (e.g. 1.0), 
+ext:FORMATREGISTRY (e.g. PRONOM), 
+ext:FORMATREGISTRYKEY (e.g. fmt/101).
+-->
+<!--transformFile TRANSFORMALGORITHM="DES" TRANSFORMORDER="1" TRANSFORMTYPE="decryption" ></transformFile--> <!-- Is used to indicate the transformation details needed to render content of a file accessible.  This may include unpacking a file into subsidiary files/streams.  The controlled value constraints for this XML string include “decompression” and “decryption”. Not mandadory. -->
+                    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file:schemas/ead3.xsd"/>
+                </file>
+                <file ID="afd24ac6-e7c8-45de-87be-6c3379f56b3b" MIMETYPE="text/xml" SIZE="134223" CREATED="2016-04-26T13:03:09.707+03:00" CHECKSUM="61fba351467f8cdfeb5d6cf8b29cf1bf9c181f0760bd8d43fe1e7765b6071e1c" CHECKSUMTYPE="SHA-256">
+                    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file:schemas/mets.xsd"/>
+                </file>
+                <file ID="c5580e00-ad8c-40dd-bd4c-e318187e8b8a" MIMETYPE="text/xml" SIZE="8322" CREATED="2016-04-26T13:03:09.707+03:00" CHECKSUM="c3dbbaa28b884377ecd4a6c49d1f12566d8227cb0dce8ced10c0f66f8fa266e3" CHECKSUMTYPE="SHA-256">
+                    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="file:schemas/xlink.xsd"/>
+                </file>
+            </fileGrp>
+            <fileGrp ID="c21c7a47-a2de-430e-8236-61cef3f9556f" USE="documentation"/>
+        </fileGrp>
+    </fileSec>
+    <structMap ID="af7c939b-e468-4d5f-bb03-2b3d1f421ca1" TYPE="physical" LABEL="E-ARK structural map">
+        <div ID="a47e1f8e-4325-41fb-a579-0cedfbf0f8b4" LABEL="7c17f8fd-dc24-4102-84e2-7420c51b4882">
+            <div ID="b53c6df8-39b8-442c-90b6-f51cc0c1cd78" LABEL="metadata">
+                <div ID="becc3baa-9294-4412-97ae-4571de6d05be" LABEL="descriptive">
+                    <fptr FILEID="cf1384c9-c723-40af-86d0-cd452e160546"/>
+                </div>
+                <div ID="d6f72953-f306-43ea-84dc-81051ba196f5" LABEL="preservation"/>
+                <div ID="e4f043f9-83c9-4682-ac13-e96d9e60156b" LABEL="other"/>
+            </div>
+            <div ID="e27c09a0-a048-4aff-ac1e-cbe71fa49622" LABEL="representations">
+                <div ID="efa4fb6d-ff4b-463e-908f-94fd2060ad8f" LABEL="rep1">
+                    <mptr xlink:type="simple" xlink:href="file:representations/rep1/METS.xml" LOCTYPE="URL"/>
+                </div>
+                <div ID="ddc4fb6d-ff4b-463e-908f-94fd2060ad8f" LABEL="rep2">
+                    <mptr xlink:type="simple" xlink:href="file:representations/rep2/METS.xml" LOCTYPE="URL"/>
+                </div>
+            </div>
+            <div ID="a3a1ee9d-3d93-475f-99c7-fe15cb882bd5" LABEL="data"/>
+            <div ID="bff16ec0-c4d2-4635-a4aa-589e553fac2f" LABEL="schemas">
+                <fptr FILEID="c175fd9f-a600-4119-9f72-8dcb50bae00e"/>
+                <fptr FILEID="afd24ac6-e7c8-45de-87be-6c3379f56b3b"/>
+                <fptr FILEID="c5580e00-ad8c-40dd-bd4c-e318187e8b8a"/>
+            </div>
+            <div ID="b22e4d27-1aa6-4d9a-a502-ecce16b9bc94" LABEL="documentation"/>
+        </div>
+    </structMap>
+</mets>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 ../../schemas/cpf.xsd" xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+<!-- The <control> element contains data used in management of the EAC-CPF instance by providing administrative metadata for the description it contains. -->   
+    <control>
+        <recordId>15effa664bc8</recordId> <!-- Contains the one or more unique identifiers for the EAC-CPF instance. -->
+        <otherRecordId localType="url">http://hdl.handle.net/10079/8gthtjq</otherRecordId> <!-- Optional.An element that allows the recording of additional identifiers that may be associated with the EAC-CPF instance. -->
+        <maintenanceStatus>new</maintenanceStatus> <!-- Required. Contains the current drafting status of the EAC-CPF instance. Values include: new, revised, deleted, cancelled, deletedSplit, or deletedReplaced. -->
+        <maintenanceAgency> <!-- Required. Contains the name and coded information about the institution or service responsible for the creation, maintenance, and/or dissemination of the EAC-CPF instance. -->
+            <agencyName>Public Health Agency</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration> <!-- Optional.Contains coded and natural language information about the language or languages of the EAC-CPF instance. -->
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration> <!-- Optional.Contains information on the rules used to construct the EAC-CPF instance, in particular the names formed in <identity> and the controlled vocabularies and thesauri used in the EAC-CPF instance. -->
+            <abbreviation>TT</abbreviation>
+            <citation>Topics Thesaurus</citation>
+        </conventionDeclaration>
+        <maintenanceHistory> <!-- Required. Contains information about the date, type and events within the life cycle of an EAC-CPF instance. Contains one or more <maintenanceEvent> elements that document creating, importing, updating, and deletion of the description. Each maintenance event contains an agent, the type of agent (human or machine), the type of event, a description of the event, and the date of the event. -->
+            <maintenanceEvent>
+                <eventType>created</eventType>
+                <eventDateTime standardDateTime="2016-05-04">2016 May 4</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Sven Svensson</agent>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources> <!-- Optional. Contains information about the sources consulted in creating the description of the CPF entity or entities in the EAC-CPF instance. Contains one or more <source> element. -->
+            <source xlink:actuate="onRequest" xlink:show="new" xlink:type="simple"
+                xlink:href="http://mnl.gov.hu/angol">
+                <sourceEntry>The National Archives of Hungary. Submission agreement no 2016050128</sourceEntry>
+            </source>
+        </sources>
+    </control>
+ <!-- cpfDescription contains information on the name structures, descriptive elements, and relationships -->   
+    <cpfDescription> <!-- Corporate body, person or family description, comprises the description of the entity. Similar to the <control> element, <cpfDescription> has four complex subelements used to describe different features of the entity. -->
+        <identity> <!-- Required. Complex structure containing the name or names used by the CPF entity over the course of the entity’s existence. Contains a repeatable <nameEntry> element for different names, and a repeatable <nameEntryParallel> element for more than one <nameEntry> expressed in different languages. -->
+            <entityType>corporateBody</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="12">Public Health Agency</part>
+                <authorizedForm>pha</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description> <!-- Optional. Contains formal description elements parallel to those in ISAAR (CPF) for the description of the CPF entity. An additional <localDescription> allows for local implementation of additional descriptive information not included in the other <description> elements. -->
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1991-02">1991 February</fromDate>
+                </dateRange>
+            </existDates>
+            <places>
+                <place>
+                    <placeRole>meeting place</placeRole>
+                    <placeEntry>Budapest, Országház)</placeEntry>
+                    <dateRange>
+                        <fromDate standardDate="1991-02">1991 February</fromDate>
+                        <toDate standardDate="1992-11">1992 November</toDate>
+                    </dateRange>
+                </place>
+            </places>
+            <languageUsed>
+                <language languageCode="eng">English</language>
+                <script scriptCode="Latn">Latin</script>
+            </languageUsed>
+            <functions>
+                <function> <!-- Optional. Includes relevant functions, processes, activities, tasks, or transactions performed by the CPF entity being described. Includes a <term> element and the range of possibilities with date information: <date>, <dateRange>, <dateSet>. -->
+                    <term vocabularySource="aat">healthcare</term>
+                </function>
+                <function>
+                    <term vocabularySource="aat">research</term>
+                </function>
+            </functions>
+            <biogHist> <!-- Optional. Includes discursive text providing biographical and/or historical information about the CPF entity being described. Includes an <abstract> element for a brief synopsis of the full content; a <chronList> element allows for structured date, event and optional place information. Includes <list>, <outline>, <p> elements to assist in structuring the text. -->
+                <abstract>TEXT.</abstract>
+            </biogHist>
+        </description>
+        <relations> <!-- Optional. Contains one or more references to or descriptions of related corporate bodies, persons or families <cpfRelation>, functions <functionRelation>, or resources <resourceRelation>. -->
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://hdl.handle.net/1111/1211jm6fh">
+                <relationEntry>József Antall (1932–1993)</relationEntry>
+                <descriptiveNote>
+                    <p>Elected between 1990 and 1993.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <!-- An element for encoding a relation between a resource and the CPF entity. -->
+            <resourceRelation resourceRelationType="subjectOf" xlink:actuate="onRequest" 
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/1236/aa5456">
+                <relationEntry>Péter Boross documentation</relationEntry>
+            </resourceRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>

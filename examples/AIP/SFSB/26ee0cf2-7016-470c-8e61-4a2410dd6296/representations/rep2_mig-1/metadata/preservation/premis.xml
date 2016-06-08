@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<premis xmlns="info:lc/xmlns/premis-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="info:lc/xmlns/premis-v2 ../../schemas/premis-v2-2.xsd">
+  <object xmlID="ID2cfed46a-3b2d-4a40-b7e2-448e2999139d" xsi:type="representation">
+    <objectIdentifier>
+      <objectIdentifierType>repository</objectIdentifierType>
+      <objectIdentifierValue>package-id-goes-here-?</objectIdentifierValue>
+    </objectIdentifier>
+  </object>
+  <object xmlID="ID8c41ef99-a164-4899-8f33-96846a6c2405" xsi:type="file">
+    <objectIdentifier>
+      <objectIdentifierType>filepath</objectIdentifierType>
+      <objectIdentifierValue>file://./data/Example1.pdf</objectIdentifierValue>
+    </objectIdentifier>
+    <objectCharacteristics>
+      <compositionLevel>0</compositionLevel>
+      <fixity>
+        <messageDigestAlgorithm>SHA-256</messageDigestAlgorithm>
+        <messageDigest>ef12e619d532225c6d529e2a6c69a8af5c8978f49fc1aa6f04d3de7c68e54f0f</messageDigest>
+        <messageDigestOriginator>hashlib</messageDigestOriginator>
+      </fixity>
+      <size>16852</size>
+      <format>
+        <formatRegistry>
+          <formatRegistryName>PRONOM</formatRegistryName>
+          <formatRegistryKey>fmt/354</formatRegistryKey>
+          <formatRegistryRole>identification</formatRegistryRole>
+        </formatRegistry>
+      </format>
+    </objectCharacteristics>
+    <relationship>
+      <relationshipType>derivation</relationshipType>
+      <relationshipSubType>has source</relationshipSubType>
+      <relatedObjectIdentification>
+        <relatedObjectIdentifierType>filepath</relatedObjectIdentifierType>
+        <relatedObjectIdentifierValue>file://./../../submission/representations/rep2/data/Example1.pdf</relatedObjectIdentifierValue>
+        <relatedObjectSequence>0</relatedObjectSequence>
+      </relatedObjectIdentification>
+      <relatedEventIdentification>
+        <relatedEventIdentifierType>local</relatedEventIdentifierType>
+        <relatedEventIdentifierValue>ID7a756a08-eae4-4f21-9a78-2a94419b60d2</relatedEventIdentifierValue>
+        <relatedEventSequence>1</relatedEventSequence>
+      </relatedEventIdentification>
+    </relationship>
+  </object>
+  <event>
+    <eventIdentifier>
+      <eventIdentifierType>local</eventIdentifierType>
+      <eventIdentifierValue>ID7a756a08-eae4-4f21-9a78-2a94419b60d2</eventIdentifierValue>
+    </eventIdentifier>
+    <eventType>migration</eventType>
+    <eventDateTime>2016-06-08T08:08:05</eventDateTime>
+    <eventOutcomeInformation>
+      <eventOutcome>success</eventOutcome>
+    </eventOutcomeInformation>
+    <linkingAgentIdentifier>
+      <linkingAgentIdentifierType>software</linkingAgentIdentifierType>
+      <linkingAgentIdentifierValue>should probably come from migrations.xml</linkingAgentIdentifierValue>
+    </linkingAgentIdentifier>
+    <linkingObjectIdentifier>
+      <linkingObjectIdentifierType>filepath</linkingObjectIdentifierType>
+      <linkingObjectIdentifierValue>file://./data/Example1.pdf</linkingObjectIdentifierValue>
+    </linkingObjectIdentifier>
+  </event>
+  <agent>
+    <agentIdentifier>
+      <agentIdentifierType>LOCAL</agentIdentifierType>
+      <agentIdentifierValue>earkweb</agentIdentifierValue>
+    </agentIdentifier>
+    <agentName>E-ARK AIP to DIP Converter</agentName>
+    <agentType>Software</agentType>
+  </agent>
+</premis>

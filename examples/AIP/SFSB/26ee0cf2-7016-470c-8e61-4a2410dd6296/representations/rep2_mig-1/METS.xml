@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.loc.gov/METS/" PROFILE="http://www.ra.ee/METS/v01/IP.xml" TYPE="AIP" OBJID="urn:uuid:rep2_mig-1" LABEL="METS file describing the AIP matching the OBJID." xsi:schemaLocation="http://www.loc.gov/METS/ ../../schemas/mets_1_11.xsd http://www.w3.org/1999/xlink ../../schemas/xlink.xsd">
+  <metsHdr RECORDSTATUS="NEW" CREATEDATE="2016-06-08T08:08:31">
+    <agent TYPE="OTHER" ROLE="CREATOR" OTHERTYPE="SOFTWARE">
+      <name>E-ARK earkweb</name>
+      <note>VERSION=0.0.1</note>
+    </agent>
+    <metsDocumentID>METS.xml</metsDocumentID>
+  </metsHdr>
+  <amdSec ID="IDa8fdb938-8e4b-4da8-ab2d-827fdff9c66b">
+    <digiprovMD ID="IDf36431b4-5a4e-44f1-98b1-bbe657e327cc">
+      <mdRef MIMETYPE="application/xml" xlink:href="file://./metadata/preservation/premis.xml" LOCTYPE="URL" CREATED="2016-06-08T08:08:31" CHECKSUM="f993e8986d40fd4185fbe6cfb62961083ad86c865fdabe392fc39e1c374d2c12" xlink:type="simple" ID="IDce3e6518-a341-4919-b229-9a1827957420" MDTYPE="PREMIS" CHECKSUMTYPE="SHA-256"/>
+    </digiprovMD>
+  </amdSec>
+  <fileSec>
+    <fileGrp USE="general filegroup" ID="ID7c500bd8-c5c5-4067-91e3-9d1fbc69774c">
+      <file MIMETYPE="application/pdf" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2016-06-08T08:08:05" CHECKSUM="ef12e619d532225c6d529e2a6c69a8af5c8978f49fc1aa6f04d3de7c68e54f0f" ID="IDdb8eccda-e11d-405a-a4ea-3f29a637dc99" SIZE="16852">
+        <FLocat xlink:href="file://./data/Example1.pdf" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="physical" LABEL="E-ARK structural map">
+    <div LABEL="rep2_mig-1">
+      <div LABEL="metadata">
+        <fptr FILEID="IDce3e6518-a341-4919-b229-9a1827957420"/>
+      </div>
+      <div LABEL="data">
+        <fptr FILEID="IDdb8eccda-e11d-405a-a4ea-3f29a637dc99"/>
+      </div>
+    </div>
+  </structMap>
+  <structMap TYPE="logical" LABEL="Simple AIP structuring">
+    <div LABEL="Package structure">
+      <div LABEL="metadata files">
+        <fptr FILEID="IDce3e6518-a341-4919-b229-9a1827957420"/>
+      </div>
+      <div LABEL="schema files"/>
+      <div LABEL="content files">
+        <fptr FILEID="IDdb8eccda-e11d-405a-a4ea-3f29a637dc99"/>
+      </div>
+    </div>
+  </structMap>
+</mets>
