@@ -1,0 +1,80 @@
+2016-08-02 14:44:26 INFO ========================================================================
+2016-08-02 14:44:26 INFO Task execution: SIPDescriptiveMetadataValidation task 9ca9dea8-901a-4943-85f3-817e6d50c071
+2016-08-02 14:44:26 INFO ========================================================================
+2016-08-02 14:44:26 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:44:26 INFO Looking for EAD metadata files in metadata directory: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/metadata/
+2016-08-02 14:44:26 INFO Found EAD file 'ead.xml'
+2016-08-02 14:44:26 INFO Using schema files specified by the 'schemaLocation' attribute
+2016-08-02 14:44:26 ERROR Error validating against schemas using schema files specified by the 'schemaLocation' attribute:
+2016-08-02 14:44:26 ERROR - DocumentInvalid occurred!
+2016-08-02 14:44:26 ERROR - domain_name: SCHEMASV
+2016-08-02 14:44:26 ERROR - domain: 17
+2016-08-02 14:44:26 ERROR - filename: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/metadata/descriptive/ead.xml
+2016-08-02 14:44:26 ERROR - level: 2
+2016-08-02 14:44:26 ERROR - level_name: ERROR
+2016-08-02 14:44:26 ERROR - line: 86
+2016-08-02 14:44:26 ERROR - message: Element '{http://ead3.archivists.org/schema/}daoset': Missing child element(s). Expected is ( {http://ead3.archivists.org/schema/}dao ).
+2016-08-02 14:44:26 ERROR - type: 1871
+2016-08-02 14:44:26 ERROR - type_name: SCHEMAV_ELEMENT_CONTENT
+2016-08-02 14:50:08 INFO ========================================================================
+2016-08-02 14:50:08 INFO Task execution: SIPDescriptiveMetadataValidation task 46fd315d-6223-433f-a03f-d45ffded57e1
+2016-08-02 14:50:08 INFO ========================================================================
+2016-08-02 14:50:08 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:08 INFO Looking for EAD metadata files in metadata directory: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/metadata/
+2016-08-02 14:50:08 INFO Found EAD file 'ead.xml'
+2016-08-02 14:50:08 INFO Using schema files specified by the 'schemaLocation' attribute
+2016-08-02 14:50:08 INFO Descriptive metadata validation completed successfully.
+2016-08-02 14:50:37 INFO ========================================================================
+2016-08-02 14:50:37 INFO Task execution: SIPReset task ea25736e-3530-4f5e-aa96-d70bed8a34d0
+2016-08-02 14:50:37 INFO ========================================================================
+2016-08-02 14:50:37 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:49 INFO ========================================================================
+2016-08-02 14:50:49 INFO Task execution: SIPReset task a5caef32-fe99-4603-8124-211f52e9fce5
+2016-08-02 14:50:49 INFO ========================================================================
+2016-08-02 14:50:49 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:49 INFO ========================================================================
+2016-08-02 14:50:49 INFO Task execution: SIPDescriptiveMetadataValidation task 7a26b678-2ef6-4b7d-9fe0-3de27db70ef9
+2016-08-02 14:50:49 INFO ========================================================================
+2016-08-02 14:50:49 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:49 INFO Looking for EAD metadata files in metadata directory: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/metadata/
+2016-08-02 14:50:49 INFO Found EAD file 'ead.xml'
+2016-08-02 14:50:49 INFO Using schema files specified by the 'schemaLocation' attribute
+2016-08-02 14:50:49 INFO Descriptive metadata validation completed successfully.
+2016-08-02 14:50:49 INFO ========================================================================
+2016-08-02 14:50:49 INFO Task execution: SIPPackageMetadataCreation task 853da14f-d414-41b0-804d-da0171308e3a
+2016-08-02 14:50:49 INFO ========================================================================
+2016-08-02 14:50:49 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:50 INFO ========================================================================
+2016-08-02 14:50:50 INFO Task execution: SIPPackaging task a5b9430d-e801-406b-a636-b60f4f0e36c9
+2016-08-02 14:50:50 INFO ========================================================================
+2016-08-02 14:50:50 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:50 INFO Package name: earksiardtest
+2016-08-02 14:50:50 INFO Packaging working directory: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:50 INFO Total number of files in working directory 17
+2016-08-02 14:50:50 INFO ========================================================================
+2016-08-02 14:50:50 INFO Task execution: SIPTransferToReception task 53026c06-5911-4fdc-9c46-afe5c4c0e625
+2016-08-02 14:50:50 INFO ========================================================================
+2016-08-02 14:50:50 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:50:50 INFO Transfer package: earksiardtest
+2016-08-02 14:53:14 INFO ========================================================================
+2016-08-02 14:53:14 INFO Task execution: SIPDescriptiveMetadataValidation task 556fe106-6105-4991-8e60-29ad92c8896f
+2016-08-02 14:53:14 INFO ========================================================================
+2016-08-02 14:53:14 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:53:14 ERROR Task cannot be executed at the current task state (last executed task: SIPTransferToReception, input accepted from previous tasks: ['SIPReset', 'SIPDescriptiveMetadataValidation'])
+2016-08-02 14:53:33 INFO ========================================================================
+2016-08-02 14:53:33 INFO Task execution: SIPReset task 41821345-6ffd-46b0-a13e-29cb922c84d4
+2016-08-02 14:53:33 INFO ========================================================================
+2016-08-02 14:53:33 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:53:33 ERROR Task status is undefined (-1). Task status must be set in task implementation.
+2016-08-02 14:53:37 INFO ========================================================================
+2016-08-02 14:53:37 INFO Task execution: SIPDescriptiveMetadataValidation task fa701bb7-661a-426f-b88b-7aa45b2d512a
+2016-08-02 14:53:37 INFO ========================================================================
+2016-08-02 14:53:37 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-02 14:53:37 INFO Looking for EAD metadata files in metadata directory: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/metadata/
+2016-08-02 14:53:37 INFO Found EAD file 'ead.xml'
+2016-08-02 14:53:37 INFO Using schema files specified by the 'schemaLocation' attribute
+2016-08-02 14:53:37 INFO Descriptive metadata validation completed successfully.
+2016-08-02 14:53:50 INFO ========================================================================
+2016-08-02 14:53:50 INFO Task execution: SIPPackageMetadataCreation task 80f60d6e-7801-478b-9614-156ff1f8231e
+2016-08-02 14:53:50 INFO ========================================================================
+2016-08-02 14:53:50 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47

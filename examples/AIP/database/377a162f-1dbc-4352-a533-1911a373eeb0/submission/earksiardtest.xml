@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns:ext="ExtensionMETS" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/METS/" PROFILE="http://webb.eark/package/METS/IP_CS.xml" ID="ID2f442feb-5cba-4367-bcd4-6562176c04ad" TYPE="SIP" OBJID="UUID:cc5a11a7-024c-474c-95ea-17e427719ad5" LABEL="Delivery METS" xsi:schemaLocation="http://www.loc.gov/METS/ schemas/IP.xsd">
+  <metsHdr CREATEDATE="2016-08-02T14:50:50">
+    <agent TYPE="ORGANIZATION" ROLE="ARCHIVIST">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <agent TYPE="ORGANIZATION" ROLE="CREATOR">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <agent TYPE="OTHER" ROLE="CREATOR" OTHERTYPE="SOFTWARE">
+      <name>E-ARK SIP Creator</name>
+      <note>VERSION=0.0.1</note>
+    </agent>
+    <agent TYPE="ORGANIZATION" ROLE="PRESERVATION">
+      <name>Institution</name>
+      <note>Note</note>
+    </agent>
+    <metsDocumentID>earksiardtest.xml</metsDocumentID>
+  </metsHdr>
+  <fileSec>
+    <fileGrp USE="PACKAGES" ID="IDb5a324dd-a3cc-4611-ad11-e21ef8647e31">
+      <file MIMETYPE="application/x-tar" USE="Datafile" CHECKSUMTYPE="SHA-256" CREATED="2016-08-02T14:50:50" CHECKSUM="7df565809b9e1aa2a17f2708f620a22a2afaa04b45d4e819825bcf1573116571" ID="ID830cf2b1-58a3-4cd0-b1b9-90b3e532ae3e" SIZE="542720">
+        <FLocat xlink:href="file://./earksiardtest.tar" xlink:type="simple" LOCTYPE="URL"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap TYPE="physical" ID="ID93f410fc-4c84-4b86-950e-64e8afeec81d" LABEL="Profilestructmap">
+    <div LABEL="Package">
+      <div LABEL="Content">
+        <fptr FILEID="IDd7ca5c7e-cdb5-4b49-acd3-57c6b536868a"/>
+      </div>
+    </div>
+  </structMap>
+</mets>

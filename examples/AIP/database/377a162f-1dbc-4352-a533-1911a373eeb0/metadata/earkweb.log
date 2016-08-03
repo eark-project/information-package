@@ -1,0 +1,87 @@
+2016-08-03 10:26:53 INFO ========================================================================
+2016-08-03 10:26:53 INFO Task execution: SIPDeliveryValidation task 0966582e-a460-469d-8a16-53a44d8b5edf
+2016-08-03 10:26:53 INFO ========================================================================
+2016-08-03 10:26:53 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:26:53 INFO Marker /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:26:53 INFO Package file: <Element {http://www.loc.gov/METS/}file at 0x7e32c20>
+2016-08-03 10:26:53 INFO Delivery XML file: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest.xml
+2016-08-03 10:26:53 INFO Schema file: /opt/python_wsgi_apps/earkweb/earkresources/schemas/mets_1_11.xsd
+2016-08-03 10:26:53 INFO Extracted file reference: file://./earksiardtest.tar
+2016-08-03 10:26:53 INFO Computing checksum for file: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/./earksiardtest.tar
+2016-08-03 10:26:53 INFO Checksum is valid.
+2016-08-03 10:26:57 INFO ========================================================================
+2016-08-03 10:26:57 INFO Task execution: IdentifierAssignment task 57e7c356-0bee-4a49-b363-5e4fdb07ec1a
+2016-08-03 10:26:57 INFO ========================================================================
+2016-08-03 10:26:57 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:26:57 INFO New identifier assigned: 377a162f-1dbc-4352-a533-1911a373eeb0
+2016-08-03 10:26:57 INFO Assigned identifier 377a162f-1dbc-4352-a533-1911a373eeb0
+2016-08-03 10:27:01 INFO ========================================================================
+2016-08-03 10:27:01 INFO Task execution: SIPExtraction task 8f34b0c0-74cf-4981-b945-5f97ac7113c3
+2016-08-03 10:27:01 INFO ========================================================================
+2016-08-03 10:27:01 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:01 INFO Package files found: [u'earksiardtest.tar', u'2e6cc2ad-987a-48be-8577-6512c6952c2a.tar']
+2016-08-03 10:27:01 INFO Looking for delivery file: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest.xml
+2016-08-03 10:27:01 INFO Looking for delivery file: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/2e6cc2ad-987a-48be-8577-6512c6952c2a.xml
+2016-08-03 10:27:01 INFO Warning: no delivery file found for package: 2e6cc2ad-987a-48be-8577-6512c6952c2a
+2016-08-03 10:27:01 INFO Extracting package file /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest.tar to /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest
+2016-08-03 10:27:05 INFO ========================================================================
+2016-08-03 10:27:05 INFO Task execution: SIPRestructuring task f3f62cee-73ca-4779-b9e2-584dd9871073
+2016-08-03 10:27:05 INFO ========================================================================
+2016-08-03 10:27:05 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:05 INFO Package files found: [u'earksiardtest.tar', u'2e6cc2ad-987a-48be-8577-6512c6952c2a.tar']
+2016-08-03 10:27:05 INFO Looking for delivery file: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest.xml
+2016-08-03 10:27:05 INFO Looking for delivery file: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/2e6cc2ad-987a-48be-8577-6512c6952c2a.xml
+2016-08-03 10:27:05 INFO Warning: no delivery file found for package: 2e6cc2ad-987a-48be-8577-6512c6952c2a
+2016-08-03 10:27:05 INFO Restructuring content of package: earksiardtest
+2016-08-03 10:27:05 INFO Move SIP folder '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest/earksiardtest.xml' to '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/submission
+2016-08-03 10:27:05 INFO Move SIP folder '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest/schemas' to '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/submission
+2016-08-03 10:27:05 INFO Move SIP folder '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest/METS.xml' to '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/submission
+2016-08-03 10:27:05 INFO Move SIP folder '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest/representations' to '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/submission
+2016-08-03 10:27:05 INFO Move SIP folder '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/earksiardtest/metadata' to '/mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/submission
+2016-08-03 10:27:09 INFO ========================================================================
+2016-08-03 10:27:09 INFO Task execution: AIPDescriptiveMetadataValidation task e2153d4c-921e-4bbe-b521-8acf390c9463
+2016-08-03 10:27:09 INFO ========================================================================
+2016-08-03 10:27:09 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:09 INFO EAD metadata file validation.
+2016-08-03 10:27:09 INFO Looking for EAD metadata files in metadata directory: submission/metadata/descriptive
+2016-08-03 10:27:09 INFO Found descriptive metadata file in submission folder: 'ead.xml'
+2016-08-03 10:27:09 INFO Looking for overruling version in AIP metadata folder: 'metadata/submission/metadata/descriptive'
+2016-08-03 10:27:09 INFO No overruling version of descriptive metadata file in AIP metadata folder found.
+2016-08-03 10:27:09 INFO Using schema files specified by the 'schemaLocation' attribute
+2016-08-03 10:27:09 INFO Descriptive metadata validation completed successfully.
+2016-08-03 10:27:14 INFO ========================================================================
+2016-08-03 10:27:14 INFO Task execution: SIPValidation task 584bc7fc-e5ea-4553-87c2-fee5fc51e2ea
+2016-08-03 10:27:14 INFO ========================================================================
+2016-08-03 10:27:14 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:14 INFO submission METS file found: /mnt/DISK/eark/work/2d0ce632-61b0-4d92-b271-b15400412a47/submission/METS.xml
+2016-08-03 10:27:20 INFO ========================================================================
+2016-08-03 10:27:20 INFO Task execution: AIPMigrations task 10ed3fe7-30ab-4a2c-9e28-ef6ee65ba815
+2016-08-03 10:27:20 INFO ========================================================================
+2016-08-03 10:27:20 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:20 INFO Unclassified file earksiardtest.tar.gz, fido result: x-fmt/266. This file will NOT be migrated.
+2016-08-03 10:27:20 INFO Unclassified file earksiardtest.siard2, fido result: x-fmt/263. This file will NOT be migrated.
+2016-08-03 10:27:20 INFO 0 migrations have been queued, please check the progress with the task AIPCheckMigrationProgress.
+2016-08-03 10:27:24 INFO ========================================================================
+2016-08-03 10:27:24 INFO Task execution: AIPCheckMigrationProgress task 6e70a904-d73a-44f4-acf0-ae0945d37972
+2016-08-03 10:27:24 INFO ========================================================================
+2016-08-03 10:27:24 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:24 INFO From a total of 0 migrations, 0 have been successful and 0 failed. Not yet completed: 0 migrations.
+2016-08-03 10:27:24 INFO Migrations completed successfully.
+2016-08-03 10:27:29 INFO ========================================================================
+2016-08-03 10:27:29 INFO Task execution: CreatePremisAfterMigration task 55742764-0d71-446b-83ba-0eaff22fae37
+2016-08-03 10:27:29 INFO ========================================================================
+2016-08-03 10:27:29 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:33 INFO ========================================================================
+2016-08-03 10:27:33 INFO Task execution: AIPRepresentationMetsCreation task ceddb038-2511-495b-954e-194ea055352c
+2016-08-03 10:27:33 INFO ========================================================================
+2016-08-03 10:27:33 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:39 INFO ========================================================================
+2016-08-03 10:27:39 INFO Task execution: AIPPackageMetsCreation task 9f32fb1f-f862-4c90-a177-b583d80a9b68
+2016-08-03 10:27:39 INFO ========================================================================
+2016-08-03 10:27:39 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:27:39 INFO METS updated with AIP content.
+2016-08-03 10:28:18 INFO ========================================================================
+2016-08-03 10:28:18 INFO Task execution: AIPValidation task 629daa7a-fafb-4cbb-b5be-c05554182be5
+2016-08-03 10:28:18 INFO ========================================================================
+2016-08-03 10:28:18 INFO Processing package 2d0ce632-61b0-4d92-b271-b15400412a47
+2016-08-03 10:28:18 INFO Validation result for METS.xml is True.
